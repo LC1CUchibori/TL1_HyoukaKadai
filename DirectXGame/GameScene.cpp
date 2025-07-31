@@ -69,6 +69,7 @@ void GameScene::Initialize() {
 	// ファイルから読み込み、メモリへ格納
 	file >> deserialized;
 
+
 	// 正しいレベルデータファイルかチェック
 	assert(deserialized.is_object());
 
